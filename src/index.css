@@ -5,9 +5,15 @@
     @apply text-dark bg-light-bg;
   }
 
-  .hero {
+  .hero-large {
     background-image: url(/img/Header.png);
     background-position: bottom;
+    background-size: cover;
+  }
+  .hero-small {
+    background-image: url(/img/mobile header.png);
+    background-position: bottom;
+    background-size: cover;
   }
 
   .product-types-section {

@@ -1,8 +1,8 @@
 export const QuoteSection = () => {
   return (
-    <section className="px-64 py-48 text-center bg-dark text-light-text">
+    <section className="px-4 md:px-64 py-48 text-center bg-dark text-light-text">
       <figure>
-        <blockquote className="text-quote-section-quote mb-16 font-serif">
+        <blockquote className="text-quote-section-quote mb-16 font-serif italic">
           <q>
             Fantastic product!
             <br /> Wow! Can’t Believe it!!

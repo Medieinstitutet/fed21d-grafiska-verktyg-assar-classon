@@ -10,6 +10,8 @@ const button = cva(
     "items-center",
     "w-max",
     "cursor-pointer",
+    "hover:scale-105",
+    "transition",
   ],
   {
     variants: {

@@ -10,6 +10,7 @@ module.exports = {
         "light-text": "#fffff3",
         "light-bg": "#C3C2BD",
         "footer-bg": "#95948F",
+        "mobile-menu-bg": "#1B191A",
       },
       boxShadow: {
         product: "4px 5px 31px 3px rgba(79, 72, 61, 0.41)",
@@ -63,6 +64,14 @@ module.exports = {
           fontWeight: "400",
         },
       ],
+      "product-types-section-title-mobile": [
+        "35px",
+        {
+          lineHeight: "60px",
+          letterSpacing: "0em",
+          fontWeight: "400",
+        },
+      ],
 
       "button-base": [
         "24px",
@@ -106,6 +115,14 @@ module.exports = {
           fontWeight: "500",
         },
       ],
+      "product-section-title-mobile": [
+        "30px",
+        {
+          lineHeight: "40px",
+          letterSpacing: "0em",
+          fontWeight: "500",
+        },
+      ],
       "product-section-product": [
         "27px",
         {
@@ -126,6 +143,14 @@ module.exports = {
 
       "cookie-consent": [
         "26px",
+        {
+          lineHeight: "1",
+          letterSpacing: "0em",
+          fontWeight: "300",
+        },
+      ],
+      "cookie-consent-small": [
+        "18px",
         {
           lineHeight: "1",
           letterSpacing: "0em",

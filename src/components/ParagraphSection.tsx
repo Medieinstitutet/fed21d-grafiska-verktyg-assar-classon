@@ -1,6 +1,6 @@
 export const ParagraphSection = () => {
   return (
-    <section className="bg-light-bg text-dark pt-32 pb-12 px-64 text-center">
+    <section className="bg-light-bg text-dark pt-32 pb-12 px-4 lg:px-64 text-center">
       <h2 className="mb-12 text-paragraph-section-title font-serif">
         blanc.. what?
       </h2>
