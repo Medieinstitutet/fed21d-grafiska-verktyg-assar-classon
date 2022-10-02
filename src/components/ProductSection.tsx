@@ -9,13 +9,13 @@ export const ProductSection = () => {
 
       <div className=" relative">
         <div className="grid grid-flow-col px-8 gap-8 md:gap-16 py-8 overflow-x-scroll">
-          <Product name="Acne-Prone" imageSrc="/img/rendered acne mask.png" />
+          <Product name="Acne-Prone" imageSrc="/img/rendered-acne-mask.png" />
           <Product
             name="Combination"
-            imageSrc="/img/rendered combination mask.png"
+            imageSrc="/img/rendered-combination-mask.png"
           />
-          <Product name="Dry" imageSrc="/img/rendered dry mask.png" />
-          <Product name="Normal" imageSrc="/img/rendered normal mask.png" />
+          <Product name="Dry" imageSrc="/img/rendered-dry-mask.png" />
+          <Product name="Normal" imageSrc="/img/rendered-normal-mask.png" />
         </div>
 
         <svg
