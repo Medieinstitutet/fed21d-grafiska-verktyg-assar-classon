@@ -1,0 +1,25 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply text-dark bg-light-bg;
+  }
+
+  .hero {
+    background-image: url(/img/Header.png);
+    background-position: bottom;
+  }
+
+  .product-types-section {
+    background-image: url(/img/Floating.png);
+    background-position: center;
+  }
+
+  .quiz-section {
+    background-image: url(/img/quiz.jpg);
+    background-position: center;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
